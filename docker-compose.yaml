@@ -18,7 +18,7 @@ services:
     image: php:8.1-fpm
     container_name: php_app
     volumes:
-      - app_data:/var/www/html
+      - /home/comneta5/kelompok9/web_pkl-center/src:/var/www/html
     command: >
       sh -c "docker-php-ext-install mysqli pdo pdo_mysql && php-fpm"
     networks:
@@ -29,9 +29,9 @@ services:
     container_name: mysql_db
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: dbku
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: pkl-center
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: sulit
     volumes:
       - db_data:/var/lib/mysql
     ports:
