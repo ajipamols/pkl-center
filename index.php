@@ -291,7 +291,7 @@ if (isset($_SESSION['user_id'])) {
             <div class="col-md-6 col-lg-4">
                 <div class="card profile-card">
                     <div class="profile-img-wrapper">
-                        <img src="romi.png" alt="Romeero Nayotama Ramadhan">
+                        <img src="public/romi.png" alt="Romeero Nayotama Ramadhan">
                         <div class="profile-social">
                             <a href="https://www.github.com/romeerow" class="social-btn"><i class="bi bi-github"></i></a>
                             <a href="https://www.instagram.com/romeerow/" class="social-btn"><i class="bi bi-instagram"></i></a>
@@ -308,7 +308,7 @@ if (isset($_SESSION['user_id'])) {
             <div class="col-md-6 col-lg-4">
                 <div class="card profile-card">
                     <div class="profile-img-wrapper">
-                        <img src="aji.jpeg" alt="Muhammad Aji Pradana">
+                        <img src="public/aji.jpeg" alt="Muhammad Aji Pradana">
                         <div class="profile-social">
                             <a href="https://www.github.com/romeerow" class="social-btn"><i class="bi bi-github"></i></a>
                             <a href="https://www.instagram.com/romeerow/" class="social-btn"><i class="bi bi-instagram"></i></a>
@@ -324,7 +324,7 @@ if (isset($_SESSION['user_id'])) {
             <div class="col-md-6 col-lg-4">
                 <div class="card profile-card">
                     <div class="profile-img-wrapper">
-                        <img src="gisel.jpeg" alt="Developer">
+                        <img src="public/gisel.jpeg" alt="Developer">
                         <div class="profile-social">
                             <a href="#" class="social-btn"><i class="bi bi-github"></i></a>
                             <a href="#" class="social-btn"><i class="bi bi-instagram"></i></a>
